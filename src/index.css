@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500&display=swap');
+:root {
+  --bg-main : #131722;
+  --ligt-color : #24baef;
+  --main-color : #fff;
+  --border-color: #949cb0;
+}
+body {
+  background-color: var(--bg-main);
+  color: var(--main-color);
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+span {
+  cursor: pointer;
+}
+.brdr {
+  height: 1px;
+  background-color: rgba(108, 117, 125,0.5);
+}
+
+.single-movie span {
+font-size: 15px;}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+.pag-hover:hover{
+  background-color: #24baef;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}

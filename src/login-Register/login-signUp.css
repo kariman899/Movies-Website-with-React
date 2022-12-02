@@ -1,0 +1,10 @@
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--ligt-color);
+    color: #fff;
+}
+.form-control {
+    background: transparent !important;
+    color: #fff;
+    border-color: rgb(255, 255, 255,0.5);
+}
